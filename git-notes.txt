@@ -1,0 +1,52 @@
+#Applying .gitignore to committed files
+Edit .gitignore to match the file you want to ignore
+git rm --cached /path/to/file
+
+Rebase with master : git pull --rebase origin master
+
+# What is origin?
+origin is just a name (the default name) for a remote (just meaning not your local) git repository
+	You can have multiple remotes, each with a different name - such as the default "origin"
+
+# Rebase branch
+#Make sure you have updated code for all branches
+git fetch --all
+git pull --all
+git checkout <branch-to-be-renamed>
+git rebase master
+
+## resolve conflict
+#Resolve editing conflicted file manually
+1.1 edit file, change code that you want commit
+	Delete markers & save
+
+	<<<<<<<
+	Current brach(your changes), branch that is being merged into
+	=======
+	remote branch (master in case of rebase), branch that is being merged in.
+	>>>>>>>
+1.2 git add filename.c
+1.3 git commit -m "using theirs"
+1.4 git rebase --continue
+
+OR
+# If you want to take your changes and discard changes in master, Override/use with branch file
+2.1 git checkout --ours filename.c
+2.2 git add filename.c
+2.3 git rebase --continue
+If rebase fails saying "No changes - did you forget to use 'git add'?"
+2.4 git rebase --skip
+
+
+OR
+# If you want changes in master and discard your changes, Remote/master branch file
+3.1 git checkout --theirs filename.c
+3.2 git add filename.c
+3.3 git rebase --continue
+
+git add filename.c
+git commit -m "using theirs"
+
+git rebase --continue
+#if this ^ fails skip & continue rebase
+git rebase --skip 
