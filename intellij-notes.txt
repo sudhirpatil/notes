@@ -43,3 +43,5 @@ Debug code at caret Shift+F9 (e.g if you stay within the main method), or Shift+
 Ctrl + Q :: Quick Documentation or the corresponding keyboard shortcut
 Ctrl + P :: Parameter Info
 Ctrl + B :: Navigate to Declaration 
+
+Quickly open Maven project :: File -> Open -> Select pom.xml
