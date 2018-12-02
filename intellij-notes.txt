@@ -12,6 +12,7 @@ Alt + Right, Alt + Left : move between tabs
 
 Ctrl + H => show inheritance hierarchy
 Alt + Q => Show declaration of method
+Ctrl + Shift + F7 => Find usages of class/method/variable
 
 Ctrl + J => To get code template, it & key should show iteration code template
 Ctrl+Shift+Enter => complete a current statement such as if, do-while, try-catch, return 
