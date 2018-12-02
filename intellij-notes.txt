@@ -1,0 +1,45 @@
+Add folder to classpath
+1. Select project & F4
+2. Dependencies & click + -> select "Jars & Directories" -> Select "classes" from list
+
+Alt + F1 or "Scroll from source"
+
+Add vaiable type in Scala :: Select Variable Name -> Alt + Enter OR Ctrl + Q
+Format Code : Ctrl+Alt+L   OR  Ctrl+Shift+Alt+L
+Swith Tabs : Ctrl + Tab
+list of recently opened files : Ctrl + E
+Alt + Right, Alt + Left : move between tabs
+
+Ctrl + H => show inheritance hierarchy
+Alt + Q => Show declaration of method
+
+Ctrl + J => To get code template, it & key should show iteration code template
+Ctrl+Shift+Enter => complete a current statement such as if, do-while, try-catch, return 
+Ctrl + Shift + Up/Down => Move lines up & down
+Ctrl + Shift + I  => Quick Defination viewer
+Search and replace => Ctrl + R
+
+Alt + Shift + F10 => Run/Debug dropdown
+Alt + Home => To locate file path
+ 
+Create test => Alt + Enter
+
+Find files => Ctrl + shift + N
+
+Enable javadocs , doesn't work yet
+https://stackoverflow.com/questions/91307/attaching-additional-javadoc-in-intellij-idea
+https://stackoverflow.com/questions/32066946/how-can-i-access-spark-javadoc-or-sources-from-java-project
+
+
+Debug Shortcuts ::
+Toggle breakpoint: Ctrl+F8
+Resume program: F9
+Step over: F8
+Step into: F7
+Stop: Ctrl+F2
+View breakpoint details/all breakpoints: Ctrl+Shift+F8
+Debug code at caret Shift+F9 (e.g if you stay within the main method), or Shift+Alt+F9
+
+Ctrl + Q :: Quick Documentation or the corresponding keyboard shortcut
+Ctrl + P :: Parameter Info
+Ctrl + B :: Navigate to Declaration 
