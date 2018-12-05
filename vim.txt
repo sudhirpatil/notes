@@ -1,0 +1,10 @@
+
+Delete Comments on multiple lines ::
+Put your cursor on the first # character, press CtrlV (or CtrlQ for gVim), and go down until the last commented line and press x, 
+that will delete all the # characters vertically.
+
+Add Comments on multiple lines ::
+1. go to the first line you want to comment, press CtrlV. This will put the editor in the VISUAL BLOCK mode.
+2. Then using the arrow key and select until the last line
+3. Now press ShiftI, which will put the editor in INSERT mode and then press #. This will add a hash to the first line.
+4. Then press "Esc" (give it a second), and it will insert a # character on all other selected lines.
