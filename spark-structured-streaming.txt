@@ -1,0 +1,5 @@
+Agg State:
+Intermediate states are maintianed in checkpoint location and updated on each trigger, state contains key(group columns) and value (aggregation value)
+
+Custom grouping agg::
+https://github.com/apache/spark/blob/v2.4.0/examples/src/main/scala/org/apache/spark/examples/sql/streaming/StructuredSessionization.scala
