@@ -17,3 +17,20 @@ public class Solution {
     }
 }
     
+// testing list
+Assert.assertEquals(list1, list2);
+Assert.assertNotEquals(list1, list3);
+//array
+assertArrayEquals(expected, actual)
+
+// part of hamcrest, see if codepad supports it
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.MatcherAssert.assertThat;
+
+assertThat(list1, is(Arrays.asList("foo", "bar")));
+assertThat(l, hasItems("foo", "bar"));
+
+//map
+assertTrue(asiaCapital1.equals(asiaCapital2));
+assertThat(result, hasEntry("Japan", false));
