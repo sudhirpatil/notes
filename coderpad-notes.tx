@@ -34,3 +34,12 @@ assertThat(l, hasItems("foo", "bar"));
 //map
 assertTrue(asiaCapital1.equals(asiaCapital2));
 assertThat(result, hasEntry("Japan", false));
+
+
+➤➤ assertEquals—Two objects are equal according to their equals method.
+➤➤ assertTrue and assertFalse—The given statement matches the Boolean expectation.
+➤➤ assertNotNull—An object is not null.
+➤➤ assertArrayEquals—The two arrays contain the same values, checking equality by
+equals if comparing Object arrays.
+
+@Test(expected = NoSuchFileException.class)
