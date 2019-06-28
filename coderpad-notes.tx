@@ -1,0 +1,19 @@
+Adding test cases for java : https://github.com/cjdev/interview-preparation/blob/master/coderpad-testing.md#java
+
+import org.junit.*;
+import org.junit.runner.*;
+
+public class Solution {
+@Test
+    public void testCompareStrings() {
+      Assert.assertEquals("abc", "abc");
+    }
+ @Test
+    public void testCompareLists() {
+      Assert.assertEquals(Arrays.asList(new Integer[]{1,2,3}), Arrays.asList(new Integer[]{1,2,3}));
+    }
+ public static void main(String[] args) {
+      JUnitCore.main("Solution");
+    }
+}
+    
